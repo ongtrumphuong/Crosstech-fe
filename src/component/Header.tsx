@@ -3,6 +3,7 @@ import { DownOutlined } from "@ant-design/icons"
 import { siteMenu } from "../common/Site";
 import clsx from "clsx";
 import { RouterLink } from "../util/RouterLink";
+import Logo from "../images/X.svg";
 
 const Header: React.FC = () => {
     const [active, setActive] = useState<boolean>(false)
@@ -12,7 +13,7 @@ const Header: React.FC = () => {
         <header className='header flex justify-between items-center max-w-[1220px] py-[29px] mx-auto'>
 
             <div className="logo w-[52.8px] h-[40px]">
-                <img src="/public/logo.svg" alt="Logo" />
+                <img src={Logo} alt="Logo" />
             </div>
             
             <nav  className="nav-links flex gap-8">
