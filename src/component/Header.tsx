@@ -12,7 +12,7 @@ const Header: React.FC = () => {
         <header className='header flex justify-between items-center max-w-[1220px] py-[29px] mx-auto'>
 
             <div className="logo w-[52.8px] h-[40px]">
-                <img src="../src/images/logo.svg" alt="Logo" />
+                <img src="/src/images/logo.svg" alt="Logo" />
             </div>
             
             <nav  className="nav-links flex gap-8">
