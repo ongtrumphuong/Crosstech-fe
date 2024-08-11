@@ -1,7 +1,8 @@
 import React from "react";
 import TaskCard from "./TaskCard";
 import ConnectAccount from "./ConnectAccount";
-// import Icons from "./Icons";
+import no1 from "../images/Group 5.svg";
+import no2 from "../images/Group.svg";
 
 const SocialTasks: React.FC = () => {
     return (
@@ -14,21 +15,21 @@ const SocialTasks: React.FC = () => {
 
             <div className="tasks-list w-[1008px] h-[276px] gap-[24px] flex items-center space-x-[24px] mx-auto my-0">
                 <TaskCard 
-                    logo="./src/images/Group 5.svg"
+                    logo={no1}
                     title="Follow Tapos X"
                     description="Follow Tapos X to earn Points"
                     points={20}
                     actionLabel="Follow"
                 />
                 <TaskCard 
-                    logo="./src/images/Group 5.svg"
+                    logo={no1}
                     title="Retweet post on X"
                     description="Retweet Tapos post on X to earn Points"
                     points={20}
                     actionLabel="Retweet"
                 />
                 <TaskCard 
-                    logo="./src/images/Group.svg"
+                    logo={no2}
                     title="Join VibrantX Discord"
                     description="Retweet a daily tweet to earn HEART"
                     points={20}

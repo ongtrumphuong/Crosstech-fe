@@ -3,7 +3,7 @@ import { DownOutlined } from "@ant-design/icons"
 import { siteMenu } from "../common/Site";
 import clsx from "clsx";
 import { RouterLink } from "../util/RouterLink";
-import Logo from "../images/X.svg";
+import Logo from "../images/logo.svg";
 
 const Header: React.FC = () => {
     const [active, setActive] = useState<boolean>(false)
